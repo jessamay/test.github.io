@@ -1,40 +1,185 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
 
 <head>
-<link rel="stylesheet" type="text/css" href="firststyle.css" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Weather Walk</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
 </head>
 
-<body>
-<p style="text-align:center;">
-<img src="file:///Users/Jessica/Desktop/Backpacking/henrycoe.jpg" style="height: 100%" />
-</p>
+<body id="page-top">
 
-<h1>Jessica May</h1>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Weather Walk</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Weather walk: get the weather for your commute.</h1>
+                            <a href="#download" class="btn btn-outline btn-xl">Coming soon!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/deviceImage.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>A forecast tailored to your commute.</h2>
+                <p class="text-muted">Learn more about our exciting new idea.</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/deviceImage.jpg" class="img-fluid" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <i class="icon-screen-smartphone text-primary"></i>
+                                    <h3>Device Mockups</h3>
+                                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <i class="icon-camera text-primary"></i>
+                                    <h3>Flexible Use</h3>
+                                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <i class="icon-present text-primary"></i>
+                                    <h3>Free to Use</h3>
+                                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <i class="icon-lock-open text-primary"></i>
+                                    <h3>Open Source</h3>
+                                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2017 Jessica and Brian.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">Privacy</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Terms</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
 </body>
 
-<ul class="tab">
-<li><a href="index.html" target="_self" class="tablinks" onclick="openTab(event, 'Home')">Home</a></li>
-<li><a href="aboutme.html" target="_self" class="tablinks" onclick="openTab(event, 'About Me')">About Me</a></li>
-<li><a href="project.html" target="_self" class="tablinks" onclick="openTab(event, 'Projects')">Projects</a></li>
-<li><a href="#" class="tablinks" onclick="openTab(event, 'Contact')">Contact</a></li>
-</ul>
-
-<div id="About Me" class="tabcontent">
-<h3>About Me</h3>
-<p>Welcome to my website.</p>
-</div>
-
-<div id="Projects" class="tabcontent">
-<h3>Projects</h3>
-<p>List of independent projects.</p>
-</div>
-
-<div id="Contact" class="tabcontent">
-<h3>Contact</h3>
-<p>How to get in touch with me.</p>
-</div>
-
-</body>
-<html>
+</html>
